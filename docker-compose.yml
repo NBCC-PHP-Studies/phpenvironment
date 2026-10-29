@@ -1,9 +1,11 @@
 services:
 
   php:
+    build:
+      context: ./php
+      dockerfile: Dockerfile
     image: chriscusacknbcc/php-dev:8.3
     container_name: shared-php
-    restart: always
     ports:
       - "8080:80"
     volumes:
@@ -17,7 +19,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - "3306:3306"
+      - "3307:3307"
     volumes:
       - mysql_data:/var/lib/mysql
 
