@@ -30,10 +30,16 @@
 
         printDate("Formatted date: ", date("Y-m-d H:i:s", $now));
 
+        printDate("Formatted date: ", date("F j, Y", $now));      
+
+        printDate("Year: ", date("Y", $now));
+
         // 27
         printDate("Date in Month with padded left 0: ", date("d", $now));
 
         printDate("Date in Month: ", date("j", $now));
+
+        printDate("Date in Month: ", date("F", $now));
 
         // Abbreivated Day
         printDate("Abbreviated day: ", date("D", $now));

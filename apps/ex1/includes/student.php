@@ -6,13 +6,13 @@
 
         // Constructor
         public function __construct($firstName, $lastName) {
-        $this->firstName = $firstName;
-        $this->lastName = $lastName;
+            $this->firstName = $firstName;
+            $this->lastName = $lastName;
         }
 
         // Method
         public function getFullName() {
-        return $this->firstName . " " . $this->lastName;
+            return $this->firstName . " " . $this->lastName;
         }
     }
 ?>
