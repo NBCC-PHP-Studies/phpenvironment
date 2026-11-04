@@ -18,6 +18,9 @@
       <li class="nav-item active">
         <a class="nav-link" href="calculator.php">Calculator</a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="fileupload.php">File Upload</a>
+      </li>
     </ul>
   </div>
 </nav>
