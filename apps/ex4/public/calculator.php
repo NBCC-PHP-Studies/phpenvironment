@@ -1,7 +1,5 @@
 <?php
     $opList = ["add", "subtract", "multiply", "divide"];
-    $errors = [];
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
